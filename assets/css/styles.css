@@ -172,6 +172,7 @@ a {
 
 .hero .container {
     display: flex;
+    align-items: center;
 }
 
 .hero__content {
@@ -181,7 +182,6 @@ a {
 
 .hero__heading {
     color: #fff;
-    margin-top: 60px;
     font-size: 7rem;
     font-weight: 600;
     line-height: 1.14; /* 114.286% */
@@ -234,4 +234,97 @@ a {
 .hero__img:last-of-type {
     width: 210px;
     height: 410px;
+}
+
+/* Service */
+.service {
+    margin: 170px 0;
+}
+
+.service__title,
+.service__desc {
+    text-align: center;
+}
+.service__title {
+    margin-left: auto;
+    margin-right: auto;
+    color: #10375c;
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: -0.1rem;
+}
+
+.service__desc {
+    width: 468px;
+    color: #575f66;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67; /* 166.667% */
+    margin-left: auto;
+    margin-right: auto;
+}
+.service__row {
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+}
+.service__img {
+    width: 570px;
+    height: 570px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.service__list {
+    margin-left: 130px;
+    width: 40%;
+}
+
+.service-item {
+    display: flex;
+    border-radius: 10px;
+}
+
+.service-item:hover {
+    box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+.service-item:hover .service-item__icon {
+    transition: 0.5s;
+    background: #2e80ce;
+    color: #ffffff;
+}
+
+.service-item__icon {
+    color: #10375c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: #eff6fd;
+    margin: 21px 0 0 22px;
+}
+
+.service-item__body {
+    margin: 21px 61px 20px 19px;
+}
+.service-item__name {
+    color: #10375c;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.service-item__desc {
+    margin-top: 8px;
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75; /* 175% */
+}
+
+.service .btn {
+    margin-top: 55px;
 }
