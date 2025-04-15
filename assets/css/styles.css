@@ -56,6 +56,7 @@ a {
     background: var(--header-bg);
     position: sticky;
     top: -28px;
+    z-index: 1;
 }
 .header-top {
     display: flex;
@@ -448,4 +449,92 @@ a {
     font-size: 1.8rem;
     font-weight: 300;
     line-height: 1.67; /* 166.667% */
+}
+
+/* Member */
+.member {
+    text-align: center;
+}
+
+.member__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member__title {
+    color: #10375c;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2; /* 120% */
+    letter-spacing: -0.1rem;
+}
+
+.member .btn {
+    margin-top: 38px;
+}
+
+.member__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.member-item {
+    width: 270px;
+}
+
+.member-item__img-bg {
+    background: #eaf6ff;
+    height: 318px;
+    display: flex;
+    align-items: end;
+}
+
+.member-item__img-bg .member-img {
+    height: 290px;
+}
+
+.member-item__name {
+    margin-top: 12px;
+    color: #10375c;
+    font-family: Sora;
+    font-size: 1.6rem;
+}
+
+.member-item__uni {
+    color: #575f66;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 2.6rem; /* 185.714% */
+}
+.member__cta {
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+    gap: 25px;
+}
+.member .btn-cta {
+    color: black;
+    width: 36px;
+    height: 36px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.2s ease-in-out;
+}
+
+.member .btn-cta:last-of-type svg {
+    transform: rotateY(180deg);
+}
+
+.member .btn-cta:hover {
+    background: #2e80ce;
+    color: #ffffff;
+    border-color: transparent;
 }
