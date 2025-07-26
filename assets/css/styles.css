@@ -201,13 +201,16 @@ a {
 
 .hero__row {
     margin-top: 38px;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero__contact {
     color: #fff;
-    text-align: center;
+    /* text-align: center; */
     font-size: 1.8rem;
-    margin-left: 38px;
+    margin-bottom: 38px;
+    /* margin-left: 38px; */
 }
 
 .hero__media {
@@ -235,6 +238,59 @@ a {
 .hero__img:last-of-type {
     width: 210px;
     height: 410px;
+}
+
+/* Feature */
+
+.feature {
+    margin: 170px 0;
+}
+
+.feature__inner {
+    display: flex;
+    align-items: center;
+    column-gap: 130px;
+}
+
+.feature__media {
+    width: 48%;
+}
+
+.feature__images {
+    position: relative;
+    padding: 0 58px 121px 0;
+}
+
+.feature__img {
+    border-radius: 6px;
+    object-fit: cover;
+    width: 512px;
+    height: 370px;
+}
+
+/* .feature__img:last-of-type {
+    position: absolute;
+    right: 0;
+    top: 121px;
+    width: 332px;
+    height: 370px;
+} */
+
+.feature__title {
+    color: #10375c;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2; /* 120% */
+    letter-spacing: -0.1rem;
+}
+
+.feature__desc {
+    margin-top: 18px;
+    margin-bottom: 38px;
+    color: #575f66;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67; /* 166.667% */
 }
 
 /* Service */
@@ -395,59 +451,6 @@ a {
 
 .guild-item:hover .guild-item__link {
     color: #2e80ce;
-}
-
-/* Feature */
-
-.feature {
-    margin: 170px 0;
-}
-
-.feature__inner {
-    display: flex;
-    align-items: center;
-    column-gap: 130px;
-}
-
-.feature__media {
-    width: 48%;
-}
-
-.feature__images {
-    position: relative;
-    padding: 0 58px 121px 0;
-}
-
-.feature__img {
-    border-radius: 6px;
-    object-fit: cover;
-    width: 512px;
-    height: 370px;
-}
-
-.feature__img:last-of-type {
-    position: absolute;
-    right: 0;
-    top: 121px;
-    width: 332px;
-    height: 370px;
-}
-
-.feature__title {
-    color: #10375c;
-    font-size: 5rem;
-    font-weight: 600;
-    line-height: 1.2; /* 120% */
-    letter-spacing: -0.1rem;
-}
-
-.feature__desc {
-    margin-top: 18px;
-    margin-bottom: 38px;
-    color: #575f66;
-    font-size: 1.8rem;
-    font-weight: 300;
-    line-height: 1.67; /* 166.667% */
 }
 
 /* Member */
