@@ -199,6 +199,16 @@ a {
     line-height: 1.67; /* 166.667% */
 }
 
+.hero__info {
+    color: #ffffff;
+    margin-top: 22px;
+    font-family: Sora;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.67; /* 166.667% */
+}
+
 .hero__row {
     margin-top: 38px;
     display: flex;
