@@ -8,6 +8,7 @@
 
 html {
     /* convert html font size from [16px * (62.5/100) = 10px] */
+    width: fit-content;
     font-size: 62.5%;
 }
 
@@ -15,7 +16,6 @@ body {
     /* root font-size now is [10px --> 1.6rem = 1.6*10px = 16px] */
     font-size: 1.6rem;
     font-family: "Sora", sans-serif;
-    height: 5000px;
 }
 
 /* -- Common -- */
