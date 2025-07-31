@@ -852,8 +852,9 @@ a {
 }
 
 /* Footer */
+
 .footer {
-    padding-top: 100px;
+    padding: 100px 25px 0;
     background: #10375c;
     font-family: "Open Sans", sans-serif;
 }
