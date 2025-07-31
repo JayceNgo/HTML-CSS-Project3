@@ -340,7 +340,7 @@ a {
 
 /* Service */
 .service {
-    margin: 170px 0;
+    padding: 170px 0;
 }
 
 .service__title,
@@ -456,7 +456,7 @@ a {
 .guild__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 30px;
+    /* column-gap: 30px; */
     margin-top: 70px;
 }
 
@@ -853,7 +853,6 @@ a {
 }
 
 /* Footer */
-/* Footer */
 .footer {
     padding-top: 100px;
     background: #10375c;
@@ -862,13 +861,15 @@ a {
 
 .footer__row {
     display: grid;
-    grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
+    grid-template-columns: 1fr 0.4fr 1fr;
     column-gap: 78px;
+    row-gap: 40px;
 }
-
+.footer__logo {
+    margin-bottom: 20px;
+}
 .footer__desc {
-    margin-top: 20px;
-    width: 336px;
+    /* margin-top: 20px; */
     font-size: 1.6rem;
     line-height: 1.75;
     color: #a9b3bb;

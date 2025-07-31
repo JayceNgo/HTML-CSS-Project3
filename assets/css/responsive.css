@@ -1,0 +1,241 @@
+/* Large PC */
+@media screen and (min-width: 1200px) {
+    /* Header  */
+    /* Hero */
+    /* Feature */
+    /* Service */
+    /* Guild */
+    /* Appointment */
+    /* Footer */
+}
+
+/* PC */
+@media screen and (max-width: 1199.98px) {
+    /* Header  */
+    /* Hero */
+
+    .hero__content {
+        width: 61%;
+    }
+
+    .hero__img:last-of-type {
+        display: none;
+    }
+    /* Feature */
+    /* Service */
+    .service__img {
+        width: 240px;
+        height: 400px;
+    }
+    .service__list {
+        margin-left: 35px;
+        width: 100%;
+    }
+    /* Guild */
+    /* Appointment */
+    /* Footer */
+}
+
+/* Tablet */
+@media screen and (max-width: 991.98px) {
+    /* Header  */
+
+    /* Hero */
+    .hero__heading {
+        font-size: 3.8rem;
+    }
+    .hero__desc {
+        font-size: 1.4rem;
+    }
+    .hero__info {
+        font-size: 1.4rem;
+    }
+    .hero__img {
+        width: 240px;
+        height: 400px;
+    }
+    /* Feature */
+    .feature-item {
+        width: 324px;
+    }
+    .feature-item__img-bg {
+        height: 350px;
+    }
+    .feature-item__img-bg .feature-img {
+        height: 350px;
+    }
+    .feature__inner {
+        column-gap: 50px;
+    }
+    .feature__title {
+        font-size: 3.8rem;
+    }
+    .feature__desc {
+        font-size: 1.4rem;
+    }
+    /* Service */
+    .service__title {
+        font-size: 3.8rem;
+    }
+    .service__desc {
+        font-size: 1.4rem;
+    }
+
+    /* Guild */
+    .guild__title {
+        font-size: 3.8rem;
+    }
+    .guild__desc {
+        font-size: 1.4rem;
+    }
+    /* Appointment */
+    .appointment__inner {
+        padding: 65px 20px;
+    }
+    .appointment__heading {
+        font-size: 3.8rem;
+    }
+    .appointment__desc {
+        font-size: 1.4rem;
+    }
+    /* Footer */
+}
+/* Tablet and Mobile */
+@media screen and (max-width: 767.98px) {
+    /* Header  */
+    .header-top {
+        justify-content: center;
+    }
+    .navbar__list {
+        display: none;
+    }
+    /* Hero */
+    .hero .container {
+        flex-direction: column;
+    }
+    .hero__content {
+        width: 85%;
+    }
+
+    .hero__img:last-of-type {
+        display: block;
+        width: 171px;
+        height: 348px;
+    }
+
+    /* Feature */
+
+    .feature__inner {
+        align-items: center;
+        flex-direction: column;
+    }
+    .feature__media {
+        margin-right: 76px;
+    }
+    .feature__images {
+        padding-bottom: 58px;
+    }
+    .feature__content {
+        width: 85%;
+    }
+    /* Service */
+    .service {
+        position: relative;
+        background-image: url("/assets/imgs/hero-img-1.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        min-height: 400px; /* hoặc chiều cao mong muốn */
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white; /* làm chữ sáng hơn */
+        text-align: center;
+    }
+    .service::before {
+        content: "";
+        position: absolute;
+        top: 124px;
+        left: 62px;
+        width: 85%;
+        height: 77%;
+        background: rgb(237 237 237 / 50%);
+        border-radius: 8px;
+        z-index: 1;
+    }
+
+    .service-item__desc {
+        color: #171819;
+    }
+    .service-item:hover {
+        background: #ffffffde;
+        box-shadow: 0px 14px 28px 0px rgb(0 0 0 / 30%);
+    }
+
+    .service > * {
+        position: relative;
+        z-index: 2; /* Đẩy nội dung lên trên overlay */
+    }
+    .service__img {
+        display: none;
+    }
+    /* Guild */
+    /* Appointment */
+    /* Footer */
+    .footer__row {
+        column-gap: 43px;
+    }
+    .footer__link {
+        white-space: normal;
+    }
+    .footer__desc {
+        white-space: nowrap;
+    }
+}
+
+/*  Mobile */
+@media screen and (max-width: 575.98px) {
+    /* Header  */
+    /* Hero */
+    .hero__img:last-of-type {
+        display: none;
+    }
+    /* Feature */
+    .feature-item {
+        width: 269px;
+    }
+    .feature-item__img-bg {
+        height: 292px;
+    }
+    .feature-item__img-bg .feature-img {
+        height: 292px;
+    }
+    /* Service */
+    .service__desc {
+        width: 254px;
+    }
+    .service__list {
+        margin: 0 10px;
+    }
+    .service::before {
+        top: 159px;
+        left: 10px;
+        width: 95%;
+        height: 67%;
+    }
+    /* Guild */
+    .guild {
+        padding: 100px 10px;
+    }
+    /* Appointment */
+    /* Footer */
+    .footer__link {
+        font-size: 1.1rem;
+    }
+    .footer__desc {
+        font-size: 1.1rem;
+    }
+}
