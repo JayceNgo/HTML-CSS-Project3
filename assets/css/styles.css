@@ -8,7 +8,6 @@
 
 html {
     /* convert html font size from [16px * (62.5/100) = 10px] */
-    width: fit-content;
     font-size: 62.5%;
 }
 

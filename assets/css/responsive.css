@@ -198,6 +198,9 @@
 
 /*  Mobile */
 @media screen and (max-width: 575.98px) {
+    html {
+        width: fit-content;
+    }
     /* Header  */
     /* Hero */
     .hero__img:last-of-type {
