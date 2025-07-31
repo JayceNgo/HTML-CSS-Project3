@@ -56,7 +56,7 @@ a {
     background: var(--header-bg);
     position: sticky;
     top: -28px;
-    z-index: 1;
+    z-index: 99;
 }
 .header-top {
     display: flex;

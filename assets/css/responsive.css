@@ -141,7 +141,7 @@
     /* Service */
     .service {
         position: relative;
-        background-image: url("/assets/imgs/hero-img-1.jpg");
+        background-image: url("../imgs/hero-img-1.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
