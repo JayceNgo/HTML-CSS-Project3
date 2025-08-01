@@ -45,10 +45,10 @@
         font-size: 3.8rem;
     }
     .hero__desc {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     .hero__info {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     .hero__img {
         width: 240px;
@@ -71,14 +71,14 @@
         font-size: 3.8rem;
     }
     .feature__desc {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     /* Service */
     .service__title {
         font-size: 3.8rem;
     }
     .service__desc {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
 
     /* Guild */
@@ -86,7 +86,7 @@
         font-size: 3.8rem;
     }
     .guild__desc {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     /* Appointment */
     .appointment__inner {
@@ -96,7 +96,7 @@
         font-size: 3.8rem;
     }
     .appointment__desc {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     /* Footer */
 }
@@ -236,9 +236,9 @@
     /* Appointment */
     /* Footer */
     .footer__link {
-        font-size: 1.1rem;
+        font-size: 1.6rem;
     }
     .footer__desc {
-        font-size: 1.1rem;
+        font-size: 1.6rem;
     }
 }
